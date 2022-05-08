@@ -1,0 +1,78 @@
+.deathcontainer {
+  background: linear-gradient(
+    69.99deg,
+    #00db99 17.53%,
+    #009556 53.47%,
+    #004f11 87.93%
+  );
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; */
+  height: 100vh;
+  overflow-y: hidden;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.deathimg-container {
+  margin-left: 20px;
+}
+
+.deathdesc-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 30% 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.deathtitle {
+  font-size: 20px;
+}
+
+.deathtitle h2 {
+  font-family: "Inter";
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 42px;
+  text-align: center;
+}
+
+.deathdesc span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #ffffff;
+}
+
+.deathbtn {
+  background: #ffffff;
+  border-radius: 8px;
+  justify-self: center;
+  border: none;
+  padding: 2%;
+  margin-top: 10%;
+}
+
+.deathbtn a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  width: max-content;
+}
